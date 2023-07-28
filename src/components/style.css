@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0cb6e6;
+}
+.centerDiv{
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #fff;
+}
+
+h1{
+    margin: 1.5rem auto;
+    padding: .5rem;
+    text-align: center;
+    background-color: #0cb6e6;
+    color: #fff;
+    font-weight: bold;
+}
+
+input{
+    outline: none;
+    color: #777;
+    border: none;
+    border-bottom: 2px solid #0cb6e6;
+    font-size: 20px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0cb6e6;
+    color: #fff;
+    margin: .5rem;
+    border: none;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+button i{
+    font-size: 25px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+button:hover,
+button:active{
+    background-color: #03c48d;
+}
+
+ol{
+    list-style: none;
+    margin-top: 1.7rem;
+}
+.listStyle{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: .7rem;
+}
+.listStyle li{
+    font-size: 19px;
+    color: #777;
+    font-weight: bold;
+    text-align: left;
+}
+.listStyle i{
+    background-color: #9d0a0a;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding-top: 6px;
+    font-size: 20px;
+    margin-right: .5rem;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+.listStyle i:hover,
+.listStyle i:active
+{
+    background-color: #03c48d;
+}
